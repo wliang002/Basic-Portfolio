@@ -9,21 +9,23 @@
         </div>
 
         <header>
-            <h1>Emily Liang</h1>
+            <h1 class="name">Emily Liang</h1>
         </header>
 
         <section id="full">
              <div class = "main">
                  <h1 class = "about">Contact</h1>
                  <hr>
-                 <form>
-                <p>Name</p>
-                <p><input type="text" placeholder="John Smith" size= 100%></p>
-                <p>Email</p>
-                <p><input type="text" placeholder="example@gmail.com" size=100%></p>
-                <p>Message</p>
-                <p><input type="text" size=100%></p>
-                <p><input type="submit"></p>
+                 <form action = "mailto: wliang002@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <p><input type="text" name = "name" placeholder="John Smith" size= 100%></p>
+                Email:<br>
+                <p><input type="text" name ="mail" placeholder="example@gmail.com" size=100%></p>
+                Message:<br>
+                <p><input type="text" name="message" size= "100"></p>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+        
             </form>
 
         </div>
